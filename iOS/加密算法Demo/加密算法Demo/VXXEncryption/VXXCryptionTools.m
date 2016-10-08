@@ -1,25 +1,25 @@
 //
-//  CryptorTools.m
-//  加密/解密工具
+//  VXXCryptionTools.m
+//  加密算法
 //
-//  Created by 刘凡 on 15/4/26.
-//  Copyright (c) 2015年 joyios. All rights reserved.
+//  Created by Volitation小星 on 16/10/8.
+//  Copyright © 2016年 Volitation小星. All rights reserved.
 //
 
-#import "VXXEncryptionTools.h"
+#import "VXXCryptionTools.h"
 #import <CommonCrypto/CommonCrypto.h>
 
 // 填充模式
 #define kTypeOfWrapPadding		kSecPaddingPKCS1
 
-@interface VXXEncryptionTools() {
+@interface VXXCryptionTools() {
     SecKeyRef _publicKeyRef;                             // 公钥引用
     SecKeyRef _privateKeyRef;                            // 私钥引用
 }
 
 @end
 
-@implementation VXXEncryptionTools
+@implementation VXXCryptionTools
 
 #pragma mark - DES 加密/解密
 #pragma mark 加密

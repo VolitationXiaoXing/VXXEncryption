@@ -1,16 +1,16 @@
 //
-//  CryptorTools.h
-//  加密/解密工具
+//  VXXCryptionTools.h
+//  加密算法
 //
-//  Created by 刘凡 on 12/4/26.
-//  Copyright (c) 2015年 joyios. All rights reserved.
+//  Created by Volitation小星 on 16/10/8.
+//  Copyright © 2016年 Volitation小星. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 ///  加密工具类
 ///  提供RSA & AES & DES加密方法
-@interface VXXEncryptionTools : NSObject
+@interface VXXCryptionTools : NSObject
 
 #pragma mark - DES 加密/解密
 ///  DES 加密

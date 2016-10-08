@@ -13,7 +13,7 @@
 		EA4A8F421DA8DC4600DC49DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4A8F401DA8DC4600DC49DD /* Main.storyboard */; };
 		EA4A8F441DA8DC4600DC49DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4A8F431DA8DC4600DC49DD /* Assets.xcassets */; };
 		EA4A8F471DA8DC4600DC49DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4A8F451DA8DC4600DC49DD /* LaunchScreen.storyboard */; };
-		EA4A8F511DA8DCE200DC49DD /* VXXEncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A8F501DA8DCE200DC49DD /* VXXEncryptionTools.m */; };
+		EA4A8F511DA8DCE200DC49DD /* VXXCryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A8F501DA8DCE200DC49DD /* VXXCryptionTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		EA4A8F431DA8DC4600DC49DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA4A8F461DA8DC4600DC49DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA4A8F481DA8DC4600DC49DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA4A8F4F1DA8DCE200DC49DD /* VXXEncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXXEncryptionTools.h; sourceTree = "<group>"; };
-		EA4A8F501DA8DCE200DC49DD /* VXXEncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXXEncryptionTools.m; sourceTree = "<group>"; };
+		EA4A8F4F1DA8DCE200DC49DD /* VXXCryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXXCryptionTools.h; sourceTree = "<group>"; };
+		EA4A8F501DA8DCE200DC49DD /* VXXCryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXXCryptionTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		EA4A8F4E1DA8DCE200DC49DD /* VXXEncryption */ = {
 			isa = PBXGroup;
 			children = (
-				EA4A8F4F1DA8DCE200DC49DD /* VXXEncryptionTools.h */,
-				EA4A8F501DA8DCE200DC49DD /* VXXEncryptionTools.m */,
+				EA4A8F4F1DA8DCE200DC49DD /* VXXCryptionTools.h */,
+				EA4A8F501DA8DCE200DC49DD /* VXXCryptionTools.m */,
 			);
 			path = VXXEncryption;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA4A8F3F1DA8DC4600DC49DD /* ViewController.m in Sources */,
-				EA4A8F511DA8DCE200DC49DD /* VXXEncryptionTools.m in Sources */,
+				EA4A8F511DA8DCE200DC49DD /* VXXCryptionTools.m in Sources */,
 				EA4A8F3C1DA8DC4600DC49DD /* AppDelegate.m in Sources */,
 				EA4A8F391DA8DC4600DC49DD /* main.m in Sources */,
 			);
@@ -326,6 +326,7 @@
 				EA4A8F4D1DA8DC4600DC49DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
