@@ -2,7 +2,7 @@
 //  VXXCryptionTools.m
 //  加密算法
 //
-//  Created by Volitation小星 on 16/10/8.
+//  Created by Volitation小星 on 15/10/8.
 //  Copyright © 2016年 Volitation小星. All rights reserved.
 //
 
