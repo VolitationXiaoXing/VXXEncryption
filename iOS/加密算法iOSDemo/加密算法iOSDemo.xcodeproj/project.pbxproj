@@ -15,6 +15,7 @@
 		FC40A5691DDC9009007DF72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC40A5671DDC9009007DF72D /* LaunchScreen.storyboard */; };
 		FC40A5741DDC9009007DF72D /* ____iOSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40A5731DDC9009007DF72D /* ____iOSDemoTests.m */; };
 		FC40A57F1DDC9009007DF72D /* ____iOSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40A57E1DDC9009007DF72D /* ____iOSDemoUITests.m */; };
+		FC40A58F1DDC905D007DF72D /* VXXCryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40A58E1DDC905D007DF72D /* VXXCryptionTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FC40A57A1DDC9009007DF72D /* 加密算法iOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加密算法iOSDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC40A57E1DDC9009007DF72D /* ____iOSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____iOSDemoUITests.m"; sourceTree = "<group>"; };
 		FC40A5801DDC9009007DF72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC40A58D1DDC905D007DF72D /* VXXCryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXXCryptionTools.h; sourceTree = "<group>"; };
+		FC40A58E1DDC905D007DF72D /* VXXCryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXXCryptionTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		FC40A5581DDC9009007DF72D /* 加密算法iOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FC40A58C1DDC905D007DF72D /* VXXEncryption */,
 				FC40A55C1DDC9009007DF72D /* AppDelegate.h */,
 				FC40A55D1DDC9009007DF72D /* AppDelegate.m */,
 				FC40A55F1DDC9009007DF72D /* ViewController.h */,
@@ -138,6 +142,15 @@
 				FC40A5801DDC9009007DF72D /* Info.plist */,
 			);
 			path = "加密算法iOSDemoUITests";
+			sourceTree = "<group>";
+		};
+		FC40A58C1DDC905D007DF72D /* VXXEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				FC40A58D1DDC905D007DF72D /* VXXCryptionTools.h */,
+				FC40A58E1DDC905D007DF72D /* VXXCryptionTools.m */,
+			);
+			path = VXXEncryption;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC40A58F1DDC905D007DF72D /* VXXCryptionTools.m in Sources */,
 				FC40A5611DDC9009007DF72D /* ViewController.m in Sources */,
 				FC40A55E1DDC9009007DF72D /* AppDelegate.m in Sources */,
 				FC40A55B1DDC9009007DF72D /* main.m in Sources */,
@@ -516,6 +530,7 @@
 				FC40A5851DDC9009007DF72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC40A5861DDC9009007DF72D /* Build configuration list for PBXNativeTarget "加密算法iOSDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				FC40A5881DDC9009007DF72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC40A5891DDC9009007DF72D /* Build configuration list for PBXNativeTarget "加密算法iOSDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				FC40A58B1DDC9009007DF72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
