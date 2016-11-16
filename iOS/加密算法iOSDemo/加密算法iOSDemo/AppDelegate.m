@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  加密算法iOSDemo
 //
-//  Created by junge on 16/11/16.
+//  Created by VolitationXiaoXing on 16/11/16.
 //  Copyright © 2016年 VolitationXiaoXing. All rights reserved.
 //
 
