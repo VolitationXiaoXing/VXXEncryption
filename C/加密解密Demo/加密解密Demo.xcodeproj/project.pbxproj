@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCC939701DDEF7FF00DA99A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC9396F1DDEF7FF00DA99A7 /* main.cpp */; };
+		FC0342E11DE28C7A0045CFE3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FC0342E01DE28C7A0045CFE3 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FCC9396A1DDEF7FF00DA99A7 /* CopyFiles */ = {
+		FC0342DB1DE28C7A0045CFE3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FCC9396C1DDEF7FF00DA99A7 /* TestDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestDemo; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCC9396F1DDEF7FF00DA99A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC0342DD1DE28C7A0045CFE3 /* 加密解密Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "加密解密Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0342E01DE28C7A0045CFE3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FCC939691DDEF7FF00DA99A7 /* Frameworks */ = {
+		FC0342DA1DE28C7A0045CFE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,96 +38,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FCC939631DDEF7FF00DA99A7 = {
+		FC0342D41DE28C7A0045CFE3 = {
 			isa = PBXGroup;
 			children = (
-				FCC9396E1DDEF7FF00DA99A7 /* TestDemo */,
-				FCC9396D1DDEF7FF00DA99A7 /* Products */,
+				FC0342DF1DE28C7A0045CFE3 /* 加密解密Demo */,
+				FC0342DE1DE28C7A0045CFE3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FCC9396D1DDEF7FF00DA99A7 /* Products */ = {
+		FC0342DE1DE28C7A0045CFE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCC9396C1DDEF7FF00DA99A7 /* TestDemo */,
+				FC0342DD1DE28C7A0045CFE3 /* 加密解密Demo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCC9396E1DDEF7FF00DA99A7 /* TestDemo */ = {
+		FC0342DF1DE28C7A0045CFE3 /* 加密解密Demo */ = {
 			isa = PBXGroup;
 			children = (
-				FCC9396F1DDEF7FF00DA99A7 /* main.cpp */,
+				FC0342E01DE28C7A0045CFE3 /* main.c */,
 			);
-			path = TestDemo;
+			path = "加密解密Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCC9396B1DDEF7FF00DA99A7 /* TestDemo */ = {
+		FC0342DC1DE28C7A0045CFE3 /* 加密解密Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCC939731DDEF7FF00DA99A7 /* Build configuration list for PBXNativeTarget "TestDemo" */;
+			buildConfigurationList = FC0342E41DE28C7A0045CFE3 /* Build configuration list for PBXNativeTarget "加密解密Demo" */;
 			buildPhases = (
-				FCC939681DDEF7FF00DA99A7 /* Sources */,
-				FCC939691DDEF7FF00DA99A7 /* Frameworks */,
-				FCC9396A1DDEF7FF00DA99A7 /* CopyFiles */,
+				FC0342D91DE28C7A0045CFE3 /* Sources */,
+				FC0342DA1DE28C7A0045CFE3 /* Frameworks */,
+				FC0342DB1DE28C7A0045CFE3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TestDemo;
-			productName = TestDemo;
-			productReference = FCC9396C1DDEF7FF00DA99A7 /* TestDemo */;
+			name = "加密解密Demo";
+			productName = "加密解密Demo";
+			productReference = FC0342DD1DE28C7A0045CFE3 /* 加密解密Demo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FCC939641DDEF7FF00DA99A7 /* Project object */ = {
+		FC0342D51DE28C7A0045CFE3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = VolitationXiaoXing;
 				TargetAttributes = {
-					FCC9396B1DDEF7FF00DA99A7 = {
+					FC0342DC1DE28C7A0045CFE3 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = GCFW8EF2TE;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = FCC939671DDEF7FF00DA99A7 /* Build configuration list for PBXProject "TestDemo" */;
+			buildConfigurationList = FC0342D81DE28C7A0045CFE3 /* Build configuration list for PBXProject "加密解密Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = FCC939631DDEF7FF00DA99A7;
-			productRefGroup = FCC9396D1DDEF7FF00DA99A7 /* Products */;
+			mainGroup = FC0342D41DE28C7A0045CFE3;
+			productRefGroup = FC0342DE1DE28C7A0045CFE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCC9396B1DDEF7FF00DA99A7 /* TestDemo */,
+				FC0342DC1DE28C7A0045CFE3 /* 加密解密Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FCC939681DDEF7FF00DA99A7 /* Sources */ = {
+		FC0342D91DE28C7A0045CFE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC939701DDEF7FF00DA99A7 /* main.cpp in Sources */,
+				FC0342E11DE28C7A0045CFE3 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FCC939711DDEF7FF00DA99A7 /* Debug */ = {
+		FC0342E21DE28C7A0045CFE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -174,7 +174,7 @@
 			};
 			name = Debug;
 		};
-		FCC939721DDEF7FF00DA99A7 /* Release */ = {
+		FC0342E31DE28C7A0045CFE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +214,7 @@
 			};
 			name = Release;
 		};
-		FCC939741DDEF7FF00DA99A7 /* Debug */ = {
+		FC0342E51DE28C7A0045CFE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = GCFW8EF2TE;
@@ -222,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		FCC939751DDEF7FF00DA99A7 /* Release */ = {
+		FC0342E61DE28C7A0045CFE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = GCFW8EF2TE;
@@ -233,24 +233,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCC939671DDEF7FF00DA99A7 /* Build configuration list for PBXProject "TestDemo" */ = {
+		FC0342D81DE28C7A0045CFE3 /* Build configuration list for PBXProject "加密解密Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCC939711DDEF7FF00DA99A7 /* Debug */,
-				FCC939721DDEF7FF00DA99A7 /* Release */,
+				FC0342E21DE28C7A0045CFE3 /* Debug */,
+				FC0342E31DE28C7A0045CFE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCC939731DDEF7FF00DA99A7 /* Build configuration list for PBXNativeTarget "TestDemo" */ = {
+		FC0342E41DE28C7A0045CFE3 /* Build configuration list for PBXNativeTarget "加密解密Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCC939741DDEF7FF00DA99A7 /* Debug */,
-				FCC939751DDEF7FF00DA99A7 /* Release */,
+				FC0342E51DE28C7A0045CFE3 /* Debug */,
+				FC0342E61DE28C7A0045CFE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FCC939641DDEF7FF00DA99A7 /* Project object */;
+	rootObject = FC0342D51DE28C7A0045CFE3 /* Project object */;
 }

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FCC9396B1DDEF7FF00DA99A7"
-               BuildableName = "TestDemo"
-               BlueprintName = "TestDemo"
-               ReferencedContainer = "container:TestDemo.xcodeproj">
+               BlueprintIdentifier = "FC0342DC1DE28C7A0045CFE3"
+               BuildableName = "&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo"
+               BlueprintName = "&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo"
+               ReferencedContainer = "container:&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FCC9396B1DDEF7FF00DA99A7"
-            BuildableName = "TestDemo"
-            BlueprintName = "TestDemo"
-            ReferencedContainer = "container:TestDemo.xcodeproj">
+            BlueprintIdentifier = "FC0342DC1DE28C7A0045CFE3"
+            BuildableName = "&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo"
+            BlueprintName = "&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo"
+            ReferencedContainer = "container:&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FCC9396B1DDEF7FF00DA99A7"
-            BuildableName = "TestDemo"
-            BlueprintName = "TestDemo"
-            ReferencedContainer = "container:TestDemo.xcodeproj">
+            BlueprintIdentifier = "FC0342DC1DE28C7A0045CFE3"
+            BuildableName = "&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo"
+            BlueprintName = "&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo"
+            ReferencedContainer = "container:&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FCC9396B1DDEF7FF00DA99A7"
-            BuildableName = "TestDemo"
-            BlueprintName = "TestDemo"
-            ReferencedContainer = "container:TestDemo.xcodeproj">
+            BlueprintIdentifier = "FC0342DC1DE28C7A0045CFE3"
+            BuildableName = "&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo"
+            BlueprintName = "&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo"
+            ReferencedContainer = "container:&#x52a0;&#x5bc6;&#x89e3;&#x5bc6;Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

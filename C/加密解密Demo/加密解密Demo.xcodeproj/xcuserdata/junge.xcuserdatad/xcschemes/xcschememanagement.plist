@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TestDemo.xcscheme</key>
+		<key>加密解密Demo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FCC9396B1DDEF7FF00DA99A7</key>
+		<key>FC0342DC1DE28C7A0045CFE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
