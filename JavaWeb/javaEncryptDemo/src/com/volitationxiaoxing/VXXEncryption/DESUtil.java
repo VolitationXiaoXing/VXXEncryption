@@ -23,11 +23,14 @@ public class DESUtil {
 
     public DESUtil() {
         try {
-            this.DESkey = "abcdefghijk".getBytes("UTF-8");// 设置密钥
+            this.DESkey = "123456".getBytes("UTF-8");// 设置密钥
             DESKeySpec keySpec = new DESKeySpec(DESkey);// 设置密钥参数
             iv = new IvParameterSpec(DESIV);// 设置向量
             SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");// 获得密钥工厂
             key = keyFactory.generateSecret(keySpec);// 得到密钥对象
+
+            System.out.println(key.getFormat());
+
         } catch (Exception e) {
             e.printStackTrace();
         }
