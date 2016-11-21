@@ -44,9 +44,13 @@
     NSLog(@"==========================");
     
     //AES加密解密 128
-    
-    VXXCryptionTools 
-    
+    NSString* encryAES128Content = [VXXCryptionTools encryptAES:content key:key];
+    NSLog(@"AES-128加密数据:%@",encryAES128Content);
+    NSLog(@"==========================");
+    NSString* decryAES128Content = [VXXCryptionTools decryptAES:encryAES128Content key:key];
+    NSLog(@"AES-128解密数据:%@",decryAES128Content);
+    NSLog(@"==========================");
+
     
     
     //RSA加密解密

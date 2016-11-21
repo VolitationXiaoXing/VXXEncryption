@@ -87,8 +87,9 @@
 + (NSString *)AESDecryptString:(NSString *)string keyString:(NSString *)keyString iv:(NSData *)iv;
 
 
-
+// AES-128 加密解密算法
 + (NSString *)encryptAES:(NSString *)content key:(NSString *)key;
+
 + (NSString *)decryptAES:(NSString *)content key:(NSString *)key;
 
 #pragma mark - RSA 加密/解密算法
