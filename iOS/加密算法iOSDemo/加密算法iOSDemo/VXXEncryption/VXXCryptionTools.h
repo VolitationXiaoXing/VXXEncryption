@@ -86,6 +86,11 @@
 ///  @return 解密后的二进制数据
 + (NSString *)AESDecryptString:(NSString *)string keyString:(NSString *)keyString iv:(NSData *)iv;
 
+
+
++ (NSString *)encryptAES:(NSString *)content key:(NSString *)key;
++ (NSString *)decryptAES:(NSString *)content key:(NSString *)key;
+
 #pragma mark - RSA 加密/解密算法
 ///  加载公钥
 ///
