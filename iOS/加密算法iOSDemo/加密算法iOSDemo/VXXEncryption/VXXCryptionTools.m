@@ -312,7 +312,7 @@
 
 
 
-NSString *const kInitVector = @"1234567890123456";
+NSString *const kInitVector = @"iOcw3Ywz09KqZdwH";
 
 size_t const kKeySize = kCCKeySizeAES128;
 

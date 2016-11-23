@@ -23,27 +23,30 @@
     NSData* iv = [NSData dataWithBytes:(__bridge const void * _Nullable)(@[@'1',@'2',@'3',@'4',@'5',@'6',@'7',@'8',@'9',@'0',@'1',@'2',@'3',@'4',@'5',@'6']) length:16];
     //DES加密解密并计算时间
     
-    NSString* iv1 = @"1234567890123456";ß
+    NSString* iv1 = @"1234567890123456";
+    
+    NSData* data1 = [iv1 dataUsingEncoding:NSUTF8StringEncoding];
+    
     
 //    NSData* data = [NSData dataWithBytes:[iv1 ] length:<#(NSUInteger)#>];
     
-    NSString* encryContent = [VXXCryptionTools DESEncryptString:content keyString:key iv:iv];
+    NSString* encryContent = [VXXCryptionTools DESEncryptString:content keyString:key iv:data1];
     NSLog(@"==========================");
     NSLog(@"明文:%@",content);
     NSLog(@"==========================");
     NSLog(@"DES加密数据:%@",encryContent);
     NSLog(@"==========================");
-    NSString* dencryContent = [VXXCryptionTools DESDecryptString:encryContent keyString:key iv:iv];
+    NSString* dencryContent = [VXXCryptionTools DESDecryptString:encryContent keyString:key iv:data1];
 
     NSLog(@"DES解密数据:%@",dencryContent);
     NSLog(@"==========================");
     
     
     //AES加密解密
-    NSString* encryAESContent = [VXXCryptionTools AESEncryptString:content keyString:key iv:iv];
+    NSString* encryAESContent = [VXXCryptionTools AESEncryptString:content keyString:key iv:data1];
     NSLog(@"AES加密数据:%@",encryAESContent);
     NSLog(@"==========================");
-    NSString* dencryAESContent = [VXXCryptionTools AESDecryptString:encryAESContent keyString:key iv:iv];
+    NSString* dencryAESContent = [VXXCryptionTools AESDecryptString:encryAESContent keyString:key iv:data1];
     NSLog(@"AES解密数据:%@",dencryAESContent);
     NSLog(@"==========================");
     
