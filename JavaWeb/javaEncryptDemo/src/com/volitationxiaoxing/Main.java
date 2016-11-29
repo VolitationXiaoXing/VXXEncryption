@@ -1,6 +1,7 @@
 package com.volitationxiaoxing;
 
 import com.volitationxiaoxing.VXXEncryption.VXXEncryptTools;
+import org.apache.commons.codec.binary.Base64;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;
@@ -19,6 +20,8 @@ public class Main {
         String iv = "1234567890123456";
 
         try {
+
+            Base64.decodeBase64("342432");
 
             System.out.println("===========================");
             System.out.println("明文: "+content);
