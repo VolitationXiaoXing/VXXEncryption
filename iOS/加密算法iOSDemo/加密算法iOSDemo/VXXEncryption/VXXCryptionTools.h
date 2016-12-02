@@ -86,11 +86,10 @@
 ///  @return 解密后的二进制数据
 + (NSString *)AESDecryptString:(NSString *)string keyString:(NSString *)keyString iv:(NSData *)iv;
 
-
-// AES-128 加密解密算法
-+ (NSString *)encryptAES:(NSString *)content key:(NSString *)key;
-
-+ (NSString *)decryptAES:(NSString *)content key:(NSString *)key;
+// AES-128 加密算法
++ (NSString *)encryptAES128:(NSString *)content key:(NSString *)key iv:(NSData*)iv;
+// AES-128 解密算法
++ (NSString *)decryptAES128:(NSString *)content key:(NSString *)key iv:(NSData*)iv;
 
 #pragma mark - RSA 加密/解密算法
 ///  加载公钥

@@ -20,12 +20,11 @@
   
     NSString* content = @"12水电费启动4%%";
     NSString* key = @"gPB5VYsS20L9ipGo";
-    NSData* iv = [NSData dataWithBytes:(__bridge const void * _Nullable)(@[@'1',@'2',@'3',@'4',@'5',@'6',@'7',@'8',@'9',@'0',@'1',@'2',@'3',@'4',@'5',@'6']) length:16];
     //DES加密解密并计算时间
     
-    NSString* iv1 = @"1234567890123456";
+    NSString* iv = @"1234567890123456";
     
-    NSData* data1 = [iv1 dataUsingEncoding:NSUTF8StringEncoding];
+    NSData* data1 = [iv dataUsingEncoding:NSUTF8StringEncoding];
     
     
 //    NSData* data = [NSData dataWithBytes:[iv1 ] length:<#(NSUInteger)#>];
