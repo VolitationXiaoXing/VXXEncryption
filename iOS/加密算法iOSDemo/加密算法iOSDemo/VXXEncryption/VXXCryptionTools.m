@@ -183,8 +183,8 @@ size_t const kKeySize = kCCKeySizeAES128;
     int option = kCCOptionPKCS7Padding;
     
     // 设置输出缓冲区
-    size_t bufferSize = [data length] + blockSize;
-    void *buffer = malloc(bufferSize);
+    size_t bs = [data length] + blockSize;
+    void *b = malloc(bs);
     
     // 加密或解密
     size_t cryptorSize = 0;
@@ -196,17 +196,17 @@ size_t const kKeySize = kCCKeySizeAES128;
                                           cIv,
                                           [data bytes],
                                           [data length],
-                                          buffer,
-                                          bufferSize,
+                                          b,
+                                          bs,
                                           &cryptorSize);
     
     NSData *result = nil;
     if (cryptStatus == kCCSuccess) {
-        result = [NSData dataWithBytesNoCopy:buffer length:cryptorSize];
+        result = [NSData dataWithBytesNoCopy:b length:cryptorSize];
         return result;
     } else {
         NSLog(@"错误状态码: %d", cryptStatus);
-        free(buffer);
+        free(b);
         return result;
     }
 }
