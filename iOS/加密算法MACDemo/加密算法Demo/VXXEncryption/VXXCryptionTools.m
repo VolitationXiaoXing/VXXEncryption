@@ -76,15 +76,14 @@
 }
 
 #pragma mark 对称加密&解密核心方法
+
 ///  对称加密&解密核心方法
-///
 ///  @param data      加密/解密的二进制数据
 ///  @param algorithm 加密算法
 ///  @param operation 加密/解密操作
 ///  @param keyString 密钥字符串
 ///  @param iv        IV 向量
-///
-///  @return 加密/解密结果
+
 + (NSData *)CCCryptData:(NSData *)data algorithm:(CCAlgorithm)algorithm operation:(CCOperation)operation keyString:(NSString *)keyString iv:(NSData *)iv {
     
     int keySize = (algorithm == kCCAlgorithmAES) ? kCCKeySizeAES128 : kCCKeySizeDES;
